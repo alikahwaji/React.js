@@ -24,7 +24,8 @@ class App extends Component {
         <h3>Ali Kahwaji</h3>
         <p>Project Sports</p>
         <SearchBar />
-        <VideoList  videos={this.state.videos}/>
+        <VideoList videos={this.state.videos}/>
+       
     </div>
     )
     }
@@ -33,3 +34,4 @@ class App extends Component {
 
 ReactDOM.render(<App />, document.querySelector('.container'));
 
+//<VideoList videos = {this.state.videos}/>
