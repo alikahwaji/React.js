@@ -40,7 +40,7 @@ class App extends Component {
         return (
     <div>
         <h3>Ali Kahwaji</h3>
-        <p>Project Sports</p>
+        <p>Project youtube</p>
         <SearchBar onSearchTermChange ={videoSearch}/>
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList 
